@@ -1,5 +1,6 @@
 # Alpine Linux update playbook for Ansible
-Designed only for one host for now
+#### Clone repository
+git clone https://github.com/pixrl/ansible-alpine
 
 #### Configure
 Specify your host at line:
@@ -14,4 +15,4 @@ If you made your own inventory file:
 
 #### Log file
 After execution there will be a log file in your `playbook_dir`:
-`update.log`
+`[IP]/tmp/update.log`

@@ -22,5 +22,4 @@
           - name: Fetch log files from remote
             fetch:
                 src: "/tmp/update.log"
-                dest: "{{ playbook_dir }}/update.log"
-                flat: yes
+                dest: "{{ playbook_dir }}"
