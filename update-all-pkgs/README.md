@@ -1,6 +1,6 @@
 # Alpine Linux update playbook for Ansible
 #### Clone repository
-git clone https://github.com/pixrl/ansible-alpine
+`git clone https://github.com/pixrl/ansible-alpine`
 
 #### Configure
 Specify your host at line:
