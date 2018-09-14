@@ -1,0 +1,7 @@
+---
+- hosts: 
+  tasks:
+          - name: Sync files from local to remote
+            synchronize: 
+                src: 
+                dest: 
